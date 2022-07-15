@@ -5,7 +5,10 @@
     "prefix-css": "postcss --use autoprefixer -b 'Explorer >= 8' ./dist/css/style.css -o ./public/css/style.css --watch"
   },
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "bootstrap": "^5.1.3",
+    "i": "^0.3.7",
+    "npm": "^8.14.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
