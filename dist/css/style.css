@@ -33,17 +33,6 @@
   background-position: fixed;
 }
 
-.img-Font .registre {
-  border: solid;
-  border: 1em;
-  border: #1E90FF;
-  background-color: #1E90FF;
-  color: white;
-  height: 2em;
-  width: 7em;
-  display: flex;
-}
-
 .img-Font img {
   float: center;
 }
@@ -53,11 +42,6 @@
   text-align: center;
 }
 
-.img-Font h1 p {
-  text-align: center;
-  align-items: center;
-  margin-left: 50px;
-}
 
 .img-Font .bouton {
   align-items: center;
@@ -108,5 +92,6 @@
   height: 300px;
   background-position: cover;
 }
+
 
 /*# sourceMappingURL=style.css.map */
