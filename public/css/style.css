@@ -10168,10 +10168,6 @@ readers do not read off random characters that represent icons */
   text-align: center;
 }
 
-.date {
-  display: flex;
-}
-
 .video {
   text-align: center;
   justify-content: center;
