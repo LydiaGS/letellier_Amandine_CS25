@@ -10234,4 +10234,19 @@ readers do not read off random characters that represent icons */
   text-align: center;
 }
 
+.passe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.titre {
+  text-align: center;
+}
+
+.T-shirt {
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */
