@@ -10136,6 +10136,11 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1000px) {
+  .png-img-top {
+    flex: 1 1 25%;
+  }
+}
 /*fin des imports*/
 .barre-bleu {
   background-color: #1E90FF;
@@ -10160,12 +10165,21 @@ readers do not read off random characters that represent icons */
   padding-left: 0;
   margin-left: 2em;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.Ticket {
+  flex-direction: left;
+  flex-wrap: wrap;
 }
 
 .img-Font {
   background-image: url("/public/img/banner/bg.jpg");
+  background-repeat: no-repeat;
+  background-image: fixed;
   flex-direction: left;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .video {
@@ -10176,10 +10190,13 @@ readers do not read off random characters that represent icons */
   background-color: beige;
   margin: 0;
   height: 1000px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .video h1 {
   color: purple;
+  flex-wrap: wrap;
 }
 
 .big {
@@ -10187,12 +10204,14 @@ readers do not read off random characters that represent icons */
   border: 1em;
   border: pink;
   background-color: pink;
+  flex-wrap: wrap;
 }
 
 .small {
   border: solid;
   border: 1em;
   border: blue;
+  flex-wrap: wrap;
 }
 
 .image {
@@ -10204,14 +10223,17 @@ readers do not read off random characters that represent icons */
   border: black;
   border: 5em;
   box-shadow: 5em;
+  flex-wrap: wrap;
 }
 
 .accordeon {
   background-image: url("/public/img/about/01.jpg");
+  background-repeat: no-repeat;
   color: pink;
   text-align: center;
   background-position: cover;
   height: 300px;
+  flex-wrap: wrap;
 }
 
 .accordeon button {
@@ -10221,17 +10243,21 @@ readers do not read off random characters that represent icons */
   background-color: #1E90FF;
   border: #1E90FF;
   border-radius: 0.2em;
+  flex-wrap: wrap;
 }
 
 .prenom img {
   height: 6em;
   width: 6em;
+  flex-wrap: wrap;
 }
 
 .event {
   background-image: url("/public/img/about/01.jpg");
+  background-repeat: no-repeat;
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .passe {
@@ -10239,13 +10265,39 @@ readers do not read off random characters that represent icons */
   justify-content: center;
   align-items: center;
   gap: 3em;
+  flex-wrap: wrap;
 }
 
 .titre {
   text-align: center;
+  background-image: url("/public/img/shape/shape.png");
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
 }
 
 .T-shirt {
+  display: flex;
+  background-image: url("/public/img/about/01.jpg");
+  position: static;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+}
+
+.Recent-News {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  position: static;
+  flex-wrap: wrap;
+}
+
+.png-img-top {
+  width: 620px;
+  height: 320px;
+  align-items: center;
+  justify-content: center;
   display: flex;
 }
 

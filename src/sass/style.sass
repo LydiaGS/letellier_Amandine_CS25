@@ -1,7 +1,9 @@
 /*les imports*/
-@import variable
-@import importe
+@import ./_variable
+@import ./_importe
 @import ./_font
+@import ./_media
+
 
 /*fin des imports*/
 .barre-bleu
@@ -24,10 +26,17 @@
     padding-left: 0
     margin-left: 2em    
     display: flex
+    flex-wrap:  wrap
+.Ticket
+    flex-direction: left  
+    flex-wrap:  wrap
 .img-Font
     background-image: url("/public/img/banner/bg.jpg")
+    background-repeat: no-repeat
+    background-image: fixed
     flex-direction: left
     text-align: center
+    flex-wrap:  wrap
 .video 
     text-align: center
     justify-content: center
@@ -36,19 +45,23 @@
     background-color: beige
     margin: 0
     height: 1000px
+    align-items: center
+    flex-wrap:  wrap
 .video h1
-    color: purple
-
+    color: purple      
+    flex-wrap:  wrap
 .big
     border: solid
     border: 1em
     border: pink
     background-color: pink
+    flex-wrap:  wrap
 
 .small    
     border: solid
     border: 1em
     border: blue
+    flex-wrap:  wrap
 .image
     text-align: center
     justify-content: center
@@ -58,13 +71,15 @@
     border: $colortext
     border: 5em
     box-shadow: 5em
-
+    flex-wrap:  wrap
 .accordeon
     background-image: url("/public/img/about/01.jpg")
+    background-repeat: no-repeat
     color: pink
     text-align: center
     background-position: cover
     height: 300px
+    flex-wrap:  wrap 
 .accordeon button
     height: 3.5em   
     width: 12em 
@@ -72,20 +87,47 @@
     background-color:  $colorclaireBleu
     border:  $colorclaireBleu
     border-radius: 0.2em
+    flex-wrap:  wrap 
 
 .prenom img
     height: 6em
     width: 6em
+    flex-wrap:  wrap
 .event
-    background-image: url("/public/img/about/01.jpg")    
+    background-image: url("/public/img/about/01.jpg")
+    background-repeat: no-repeat    
     justify-content: center
-    text-align: center 
+    text-align: center
+    flex-wrap:  wrap 
 .passe
     display: flex 
     justify-content: center
     align-items: center
     gap: 3em
+    flex-wrap:  wrap 
 .titre
     text-align: center    
+    background-image: url("/public/img/shape/shape.png")
+    background-repeat: no-repeat
+    flex-wrap:  wrap
 .T-shirt
     display: flex  
+    background-image: url("/public/img/about/01.jpg")
+    position: static
+    background-repeat: no-repeat
+    flex-wrap:  wrap
+.Recent-News
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    position: relative
+    position: static
+    flex-wrap:  wrap
+.png-img-top
+    width: 620px
+    height: 320px
+    align-items: center
+    justify-content: center
+    display: flex 
+
