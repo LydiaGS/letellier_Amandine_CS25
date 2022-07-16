@@ -10164,7 +10164,7 @@ readers do not read off random characters that represent icons */
 
 .img-Font {
   background-image: url("/public/img/banner/bg.jpg");
-  lex-direction: left;
+  flex-direction: left;
   text-align: center;
 }
 
@@ -10221,6 +10221,17 @@ readers do not read off random characters that represent icons */
   background-color: #1E90FF;
   border: #1E90FF;
   border-radius: 0.2em;
+}
+
+.prenom img {
+  height: 6em;
+  width: 6em;
+}
+
+.event {
+  background-image: url("/public/img/about/01.jpg");
+  justify-content: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
