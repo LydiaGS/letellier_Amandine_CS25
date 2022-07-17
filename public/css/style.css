@@ -10194,16 +10194,13 @@ readers do not read off random characters that represent icons */
   flex-wrap: wrap;
   display: center;
 }
-@media screen and (min-width: 320px) and (max-width: 1000px) {
-  .video {
-    flex: 1 1 25%;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 1000px) {
-  .video {
-    justify-content: center;
-    object-fit: scale-down;
-  }
+
+.vdo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  width: 100%;
 }
 
 .video h1 {
