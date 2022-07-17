@@ -47,6 +47,18 @@
     height: 1000px
     align-items: center
     flex-wrap:  wrap
+    display: center  
+    @media screen and (min-width:320px) and (max-width:1000px)  
+        .video
+        flex: 1 1 25%  
+    @media screen and (min-width: 320px) and (max-width:1000px) 
+        .navba
+        justify-content: center
+    
+        .video > img
+        object-fit: scale-down
+    
+
 .video h1
     color: purple      
     flex-wrap:  wrap
@@ -99,6 +111,7 @@
     justify-content: center
     text-align: center
     flex-wrap:  wrap 
+    background-size: cover
 .passe
     display: flex 
     justify-content: center
@@ -116,6 +129,8 @@
     position: static
     background-repeat: no-repeat
     flex-wrap:  wrap
+    background-size: cover
+    color: white
 .Recent-News
     display: flex
     flex-wrap: wrap
@@ -124,10 +139,48 @@
     position: relative
     position: static
     flex-wrap:  wrap
+    background-image: url("/public/img/shape/shape.png")
 .png-img-top
     width: 620px
     height: 320px
     align-items: center
     justify-content: center
     display: flex 
+.pers
+    text-align: center
+    background-image: url("/public/img/shape/shape.png") 
+.footer
+    background-image: url("/public/img/footer/bg.jpg")
+    height: 200px
+.enventoz
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+.enventsite
+    display: flex
+    justify-content: center
+    align-items: center 
+    color: white
+    flex-wrap: wrap
+.fa
+    display: flex
+    justify-content: center
+    align-items: center
+    color: white
+    gap: 1em
+    height: 3em
+    flex-wrap: wrap
+.our
+    display: flex
+    gap: 5em
+    justify-content: center
+    align-items: center
+    background-color: $colorclaireBleu
+    color: $colortexte
+.entrer
+    display: flex
+.our div
+    border: solid  0.1em black
+
 
