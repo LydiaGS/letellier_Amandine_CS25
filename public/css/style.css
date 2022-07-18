@@ -10234,6 +10234,10 @@ readers do not read off random characters that represent icons */
   flex-wrap: wrap;
 }
 
+.video button {
+  background-color: linear-gradiient 90deg rgb(54, 59, 71) 50deg rgb(38, 162, 204) 100deg rgb(54, 118, 187);
+}
+
 /*section3*/    
 .big {
   border: solid;
@@ -10350,6 +10354,7 @@ readers do not read off random characters that represent icons */
   text-align: center;
   flex-wrap: wrap;
   background-size: cover;
+  display: none;
 }
 
 .passe {
