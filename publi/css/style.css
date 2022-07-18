@@ -10370,6 +10370,28 @@ readers do not read off random characters that represent icons */
 
 .prenom {
   background-image: url("../../public/img/banner/bg.jpg");
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: inherit;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.prenom {
+  vertical-align: middle;
+  box-sizing: inherit;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.pers {
+  vertical-align: middle;
+  box-sizing: inherit;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .event {
@@ -10379,8 +10401,29 @@ readers do not read off random characters that represent icons */
   text-align: center;
   flex-wrap: wrap;
   background-size: cover;
-  display: none;
   font-family: pomme;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.text69 {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Qt button {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: solid white 0.5em;
+}
+
+.title {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .passe {
@@ -10441,8 +10484,9 @@ readers do not read off random characters that represent icons */
 }
 
 .footer {
-  background-image: url("../../.public/img/footer/bg.jpg");
+  background-image: url("../../public/img/footer/bg.jpg");
   height: 200px;
+  color: white;
 }
 
 .enventoz {
@@ -10457,7 +10501,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
   flex-wrap: wrap;
   font-family: pomme;
 }
@@ -10466,7 +10510,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
   gap: 1em;
   height: 3em;
   flex-wrap: wrap;
