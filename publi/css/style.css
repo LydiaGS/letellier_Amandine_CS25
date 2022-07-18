@@ -10140,6 +10140,18 @@ readers do not read off random characters that represent icons */
   font-family: pomme;
   src: url(../../public/fonts/eduNSWACTFoundation-VariableFont_wght.ttf);
 }
+@font-face {
+  font-family: bold;
+  src: url(../../public/fonts/FontsFree-Net-CircularStd-Boldd.ttf);
+}
+@font-face {
+  font-family: black;
+  src: url(../../public/fonts/FontsFree-Net-CircularStd-Blackk.ttf);
+}
+@font-face {
+  font-family: meduim;
+  src: url(../..public/fonts/FontsFree-Net-CircularStd-Mediumm.ttf);
+}
 @media screen and (min-width: 320px) and (max-width: 1000px) {
   .png-img-top {
     flex: 1 1 25%;
@@ -10155,7 +10167,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   gap: 3em;
   justify-content: space-between;
-  font-family: pomme;
+  font-family: bold;
 }
 
 .navbar-nav {
@@ -10168,7 +10180,7 @@ readers do not read off random characters that represent icons */
   justify-content: space-between;
   flex-direction: column;
   flex-direction: row;
-  font-family: pomme;
+  font-family: bold;
 }
 
 .navbar-nav .nav-link {
@@ -10179,7 +10191,7 @@ readers do not read off random characters that represent icons */
   flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: column;
-  font-family: pomme;
+  font-family: bold;
 }
 
 /*section 1*/
@@ -10195,10 +10207,15 @@ readers do not read off random characters that represent icons */
   flex-direction: left;
   text-align: center;
   flex-wrap: wrap;
-  font-family: pomme;
+  font-family: medium;
 }
 
-/*section2*/
+.container-fluid .jour li {
+  background: linear-gradient(to right, purple, pink, orange);
+  border: none;
+  /*section2*/
+}
+
 .video {
   text-align: center;
   justify-content: center;
@@ -10210,7 +10227,7 @@ readers do not read off random characters that represent icons */
   align-items: center;
   flex-wrap: wrap;
   display: center;
-  font-family: pomme;
+  font-family: meduim;
   gap: 3em;
 }
 
@@ -10237,11 +10254,23 @@ readers do not read off random characters that represent icons */
   top: -3px;
   right: 530px;
   color: white;
-  border-radius: solid withe 0.5em;
+  border: solid withe 1em;
+  height: 2em;
+  width: 3em;
 }
 
-.video h1 {
-  color: purple;
+.Ticket button {
+  background: linear-gradient(to right, purple, pink, orange);
+  border: none;
+}
+
+.container-fluid button {
+  background: linear-gradient(to right, purple, pink, orange);
+  border: none;
+}
+
+.video .txt1 h1 {
+  color: linear-gradient(to right, purple, pink);
   flex-wrap: wrap;
 }
 
@@ -10250,8 +10279,9 @@ readers do not read off random characters that represent icons */
 }
 
 .video button {
-  background-color: linear-gradiient 90deg rgb(54, 59, 71) 50deg rgb(38, 162, 204) 100deg rgb(54, 118, 187);
-  font-family: pomme;
+  background: linear-gradient(to right, purple, pink, orange);
+  border: none;
+  font-family: black;
 }
 
 /*section3*/    
@@ -10264,7 +10294,7 @@ readers do not read off random characters that represent icons */
   flex-wrap: wrap;
   gap: 10 em;
   border-radius: 0.5em;
-  font-family: pomme;
+  font-family: black;
 }
 
 .small {
@@ -10274,7 +10304,7 @@ readers do not read off random characters that represent icons */
   flex-wrap: wrap;
   border-radius: 0.5em;
   background-color: linear-gradient #e66465, #9198e5;
-  font-family: pomme;
+  font-family: meduim;
 }
 
 .btn1 {
@@ -10311,7 +10341,7 @@ readers do not read off random characters that represent icons */
   border: 5em;
   box-shadow: 5em;
   flex-wrap: wrap;
-  font-family: pomme;
+  font-family: bold;
 }
 
 .accordeon {
@@ -10323,9 +10353,17 @@ readers do not read off random characters that represent icons */
   background-image: url("../../public/img/about/01.jpg");
   background-size: cover;
   gap: 3em;
-  font-family: pomme;
+  font-family: black;
   position: relative;
   top: 5%;
+}
+
+.accordeon button {
+  background: linear-gradient(to right, purple, pink, orange);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .c2 {
@@ -10346,7 +10384,7 @@ readers do not read off random characters that represent icons */
   justify-content: center;
   gap: 3em;
   flex-wrap: wrap;
-  font-family: pomme;
+  font-family: meduim;
 }
 
 .txt {
@@ -10359,13 +10397,16 @@ readers do not read off random characters that represent icons */
   top: 5px;
   padding: 25px;
   margin: 25px;
-  font-family: pomme;
+  font-family: meduim;
+  background-color: transparent;
 }
 
 .prenom img {
   height: 6em;
   width: 6em;
   flex-wrap: wrap;
+  background-color: transparent;
+  border: none;
 }
 
 .prenom {
@@ -10376,6 +10417,7 @@ readers do not read off random characters that represent icons */
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  background-color: transparent;
 }
 
 .prenom {
@@ -10384,6 +10426,7 @@ readers do not read off random characters that represent icons */
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  background-color: transparent;
 }
 
 .pers {
@@ -10392,6 +10435,7 @@ readers do not read off random characters that represent icons */
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  background-color: transparent;
 }
 
 .event {
@@ -10401,7 +10445,7 @@ readers do not read off random characters that represent icons */
   text-align: center;
   flex-wrap: wrap;
   background-size: cover;
-  font-family: pomme;
+  font-family: bold;
   color: black;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -10417,6 +10461,13 @@ readers do not read off random characters that represent icons */
   margin-top: 25px;
   margin-bottom: 25px;
   border: solid white 0.5em;
+}
+
+.Qt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .title {
@@ -10439,7 +10490,7 @@ readers do not read off random characters that represent icons */
   background-image: url("../../public/img/shape/shape.png");
   background-repeat: no-repeat;
   flex-wrap: wrap;
-  font-family: pomme;
+  font-family: black;
 }
 
 .T-shirt {
@@ -10465,7 +10516,7 @@ readers do not read off random characters that represent icons */
   margin-top: 50px;
   margin-bottom: 50p;
   background-image: url("../../public/img/shape/shape.png");
-  font-family: pomme;
+  font-family: black;
 }
 
 .png-img-top {
@@ -10474,13 +10525,13 @@ readers do not read off random characters that represent icons */
   align-items: center;
   justify-content: center;
   display: flex;
-  font-family: pomme;
+  font-family: bold;
 }
 
 .pers {
   text-align: center;
   background-image: url("../../public/img/shape/shape.png");
-  font-family: pomme;
+  font-family: meduim;
 }
 
 .footer {
@@ -10494,7 +10545,7 @@ readers do not read off random characters that represent icons */
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  font-family: pomme;
+  font-family: meduim;
 }
 
 .enventsite {
@@ -10503,7 +10554,7 @@ readers do not read off random characters that represent icons */
   align-items: center;
   color: white;
   flex-wrap: wrap;
-  font-family: pomme;
+  font-family: meduim;
 }
 
 .fa {
@@ -10514,7 +10565,7 @@ readers do not read off random characters that represent icons */
   gap: 1em;
   height: 3em;
   flex-wrap: wrap;
-  font-family: pomme;
+  font-family: black;
 }
 
 .our {
@@ -10524,7 +10575,7 @@ readers do not read off random characters that represent icons */
   align-items: center;
   background-color: #1E90FF;
   color: white;
-  font-family: pomme;
+  font-family: black;
 }
 
 .entrer {
@@ -10560,13 +10611,18 @@ readers do not read off random characters that represent icons */
 }
 
 .card12 {
-  border-bottom: 5px solid rgb(54, 118, 187);
+  border-bottom: 5px solid rgb(38, 162, 204);
   margin-bottom: 3em;
+  background-color: rgb(38, 162, 204);
 }
 
 .card15 {
   border-top: 5px solid pink;
   gap: 3em;
+}
+
+.card-text {
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
