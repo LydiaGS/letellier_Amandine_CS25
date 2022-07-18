@@ -2,6 +2,7 @@
 @import ./_variable
 @import ./_importe
 @import ./_font
+@import ./_fonts
 @import ./_media
 
 
@@ -15,6 +16,7 @@
     display: flex
     gap: 3em
     justify-content: space-between
+    font-family: pomme
 .navbar-nav
     display: flex
     flex-direction: column
@@ -25,6 +27,7 @@
     justify-content: space-between
     flex-direction: column
     flex-direction: row
+    font-family: pomme
 
 .navbar-nav .nav-link
     padding-right: 0
@@ -34,17 +37,19 @@
     flex-wrap:  wrap
     justify-content: space-between
     flex-direction: column
+    font-family: pomme
 /*section 1*/
 .Ticket
     flex-direction: left  
     flex-wrap:  wrap
 .img-Font
-    background-image: url("/public/img/banner/bg.jpg")
+    background-image: url("../../public/img/banner/bg.jpg")
     background-repeat: no-repeat
     background-image: fixed
     flex-direction: left
     text-align: center
     flex-wrap:  wrap
+    font-family: pomme
 /*section2*/
 .video 
     text-align: center
@@ -57,8 +62,8 @@
     align-items: center
     flex-wrap:  wrap
     display: center 
-
-
+    font-family: pomme
+    gap: 3em
 .vdo
     display: flex
     justify-content: center
@@ -78,12 +83,15 @@
     top:-3px
     right: 530px
     color: white 
+    border-radius: solid withe 0.5em
 .video h1
     color: purple      
     flex-wrap:  wrap
+.txt1
+    margin: 100px    
 .video button
     background-color:  linear-gradiient (90deg $color-primero 50deg $color-quinto 100deg $color-segundo )    
-
+    font-family: pomme
 /*section3*/    
 .big
     border: solid
@@ -94,7 +102,7 @@
     flex-wrap:  wrap
     gap: 10 em
     border-radius: 0.5em
-
+    font-family: pomme
 .small    
     border: solid
     border: 1em
@@ -102,6 +110,7 @@
     flex-wrap:  wrap
     border-radius: 0.5em
     background-color: linear-gradient#e66465, #9198e5
+    font-family: pomme
 .btn1
     gap: 1em
     border-radius: 0.5em   
@@ -130,17 +139,17 @@
     border: 5em
     box-shadow: 5em
     flex-wrap:  wrap
+    font-family: pomme
 .accordeon
-    background-image: url("/public/img/about/01.jpg")
+    background-image: url("../../public/img/about/01.jpg")
     background-repeat: no-repeat
     color: pink
-    text-align: center
     background-position: cover
     flex-wrap:  wrap 
-    background-image: url("/public/img/about/01.jpg")
+    background-image: url("../../public/img/about/01.jpg")
     background-size: cover
     gap: 3em
-
+    font-family: pomme
     position: relative
     top: 5% 
 .c2   
@@ -157,6 +166,7 @@
     justify-content: center
     gap: 3em
     flex-wrap: wrap
+    font-family: pomme
 
 .txt
     text-align: center
@@ -166,10 +176,13 @@
     top: 5px
     padding: 25px
     margin: 25px
+    font-family: pomme
 .prenom img
     height: 6em
     width: 6em
     flex-wrap:  wrap 
+.prenom
+    background-image: url("../../public/img/banner/bg.jpg")
 //     display: inline-block
 //     vertical-align: middle
 //     box-sizing: inherit
@@ -189,13 +202,14 @@
 //     position: sticky
 //     top: 0    
 .event
-    background-image: url("/public/img/about/01.jpg")
+    background-image: url("../../public/img/about/01.jpg")
     background-repeat: no-repeat    
     justify-content: center
     text-align: center
     flex-wrap:  wrap 
     background-size: cover
     display: none
+    font-family: pomme
 .passe
     display: flex 
     justify-content: center
@@ -206,17 +220,19 @@
 
 .titre
     text-align: center    
-    background-image: url("/public/img/shape/shape.png")
+    background-image: url("../../public/img/shape/shape.png")
     background-repeat: no-repeat
     flex-wrap:  wrap
+    font-family: pomme
 .T-shirt
     display: flex  
-    background-image: url("/public/img/about/01.jpg")
+    background-image: url("../../public/img/about/01.jpg")
     position: static
     background-repeat: no-repeat
     flex-wrap:  wrap
     background-size: cover
     color: white
+    font-family: pomme
 .Recent-News
     display: flex
     flex-wrap: wrap
@@ -228,40 +244,44 @@
     gap: 3em
     margin-top: 50px
     margin-bottom: 50p
-    background-image: url("/public/img/shape/shape.png")
-
+    background-image: url("../../public/img/shape/shape.png")
+    font-family: pomme
 .png-img-top
     width: 620px
     height: 320px
     align-items: center
     justify-content: center
     display: flex 
+    font-family: pomme
 .pers
     text-align: center
-    background-image: url("/public/img/shape/shape.png") 
-
+    background-image: url("../../public/img/shape/shape.png") 
+    font-family: pomme
 .footer
-    background-image: url("/public/img/footer/bg.jpg")
+    background-image: url("../../.public/img/footer/bg.jpg")
     height: 200px   
 .enventoz
     display: flex
     justify-content: center
     align-items: center
     flex-wrap: wrap
+    font-family: pomme
 .enventsite
     display: flex
     justify-content: center
     align-items: center 
-    color: white
+    color: black
     flex-wrap: wrap
+    font-family: pomme
 .fa
     display: flex
     justify-content: center
     align-items: center
-    color: white
+    color: black
     gap: 1em
     height: 3em
     flex-wrap: wrap
+    font-family: pomme
 .our
     display: flex
     gap: 5em
@@ -269,6 +289,7 @@
     align-items: center
     background-color: $colorclaireBleu
     color: $colortexte
+    font-family: pomme
 .entrer
     display: flex
 .btn12
@@ -282,9 +303,14 @@
     margin: 0
     padding: 0 
 .cars2
-    background-image: url( "/public/img/pricing-plan/01.svg")      
+    background-image: url( "../../public/img/pricing-plan/01.svg")      
 .cars3
-    background-image: url( "/public/img/pricing-plan/02.svg") 
+    background-image: url( "../../public/img/pricing-plan/02.svg") 
 .cars4     
-    background-image: url( "/public/img/pricing-plan/03.svg") 
-
+    background-image: url( "../../public/img/pricing-plan/03.svg") 
+.card12
+    border-bottom: 5px solid $color-segundo
+    margin-bottom: 3em
+.card15
+    border-top:  5px solid pink  
+    gap: 3em
