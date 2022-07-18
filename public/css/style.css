@@ -10142,6 +10142,7 @@ readers do not read off random characters that represent icons */
   }
 }
 /*fin des imports*/
+ *  /*navbra*/
 .barre-bleu {
   background-color: #1E90FF;
   color: white;
@@ -10149,6 +10150,7 @@ readers do not read off random characters that represent icons */
   padding: 0;
   display: flex;
   gap: 3em;
+  justify-content: space-between;
 }
 
 .navbar-nav {
@@ -10158,6 +10160,8 @@ readers do not read off random characters that represent icons */
   margin-bottom: 0;
   list-style: none;
   text-decoration: none;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .navbar-nav .nav-link {
@@ -10166,8 +10170,11 @@ readers do not read off random characters that represent icons */
   margin-left: 2em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
+/*section 1*/
 .Ticket {
   flex-direction: left;
   flex-wrap: wrap;
@@ -10182,6 +10189,7 @@ readers do not read off random characters that represent icons */
   flex-wrap: wrap;
 }
 
+/*section2*/
 .video {
   text-align: center;
   justify-content: center;
@@ -10195,12 +10203,34 @@ readers do not read off random characters that represent icons */
   display: center;
 }
 
+.video button {
+  gap: 10 em;
+  border-radius: 0.5em;
+}
+
 .vdo {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 320px;
   width: 100%;
+  position: relative;
+  top: 5%;
+}
+
+.vdo img {
+  border: solid 0.5em white;
+  position: relative;
+}
+
+.vdo i {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: -3px;
+  right: 530px;
+  color: white;
 }
 
 .video h1 {
@@ -10208,6 +10238,7 @@ readers do not read off random characters that represent icons */
   flex-wrap: wrap;
 }
 
+/*section3*/    
 .big {
   border: solid;
   border: 1em;
@@ -10244,8 +10275,10 @@ readers do not read off random characters that represent icons */
   flex-wrap: wrap;
   background-image: url("/public/img/about/01.jpg");
   background-size: cover;
-  display: flex;
   gap: 3em;
+  display: flex;
+  position: relative;
+  top: 5%;
 }
 
 .txt {

@@ -6,6 +6,7 @@
 
 
 /*fin des imports*/
+    /*navbra*/
 .barre-bleu
     background-color: $colorclaireBleu
     color: white
@@ -13,6 +14,7 @@
     padding: 0
     display: flex
     gap: 3em
+    justify-content: space-between
 .navbar-nav
     display: flex
     flex-direction: column
@@ -20,6 +22,8 @@
     margin-bottom: 0
     list-style: none
     text-decoration: none
+    justify-content: space-between
+    flex-direction: column
 
 .navbar-nav .nav-link
     padding-right: 0
@@ -27,6 +31,9 @@
     margin-left: 2em    
     display: flex
     flex-wrap:  wrap
+    justify-content: space-between
+    flex-direction: column
+/*section 1*/
 .Ticket
     flex-direction: left  
     flex-wrap:  wrap
@@ -37,6 +44,7 @@
     flex-direction: left
     text-align: center
     flex-wrap:  wrap
+/*section2*/
 .video 
     text-align: center
     justify-content: center
@@ -47,17 +55,34 @@
     height: 1000px
     align-items: center
     flex-wrap:  wrap
-    display: center  
+    display: center 
+.video  button
+    gap: 10 em
+    border-radius: 0.5em
 .vdo
     display: flex
     justify-content: center
     align-items: center
     width: 320px
-    width: 100% 
-
+    width: 100%
+    position: relative
+    top: 5% 
+.vdo img
+    border: solid 0.5em white 
+    position: relative
+.vdo i
+    align-items: center
+    justify-content: center
+    display: flex    
+    position: relative
+    top:-3px
+    right: 530px
+    color: white 
 .video h1
     color: purple      
     flex-wrap:  wrap
+
+/*section3*/    
 .big
     border: solid
     border: 1em
@@ -89,8 +114,10 @@
     flex-wrap:  wrap 
     background-image: url("/public/img/about/01.jpg")
     background-size: cover
-    display: flex
     gap: 3em
+    display: flex
+    position: relative
+    top: 5% 
 .txt
     text-align: center
     display: flex
@@ -100,6 +127,24 @@
     height: 6em
     width: 6em
     flex-wrap:  wrap
+//     display: inline-block
+//     vertical-align: middle
+//     box-sizing: inherit
+//     position: -webkit-sticky
+//     position: sticky
+//     top: 0    
+// .prenom
+//     vertical-align: middle
+//     box-sizing: inherit
+//     position: -webkit-sticky
+//     position: sticky
+//     top: 0    
+// .pers
+//     vertical-align: middle
+//     box-sizing: inherit
+//     position: -webkit-sticky
+//     position: sticky
+//     top: 0    
 .event
     background-image: url("/public/img/about/01.jpg")
     background-repeat: no-repeat    
@@ -144,9 +189,10 @@
 .pers
     text-align: center
     background-image: url("/public/img/shape/shape.png") 
+
 .footer
     background-image: url("/public/img/footer/bg.jpg")
-    height: 200px
+    height: 200px   
 .enventoz
     display: flex
     justify-content: center
@@ -177,5 +223,6 @@
     display: flex
 .our div
     border: solid  0.1em black
+
 
 
