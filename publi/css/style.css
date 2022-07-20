@@ -10354,14 +10354,10 @@ readers do not read off random characters that represent icons */
   background-size: cover;
   gap: 3em;
   font-family: black;
-  position: relative;
-  top: 5%;
 }
 
 .accordeon button {
   background: linear-gradient(to right, purple, pink, orange);
-  border: none;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -10387,6 +10383,12 @@ readers do not read off random characters that represent icons */
   font-family: meduim;
 }
 
+.btn96 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .txt {
   text-align: center;
   justify-content: center;
@@ -10410,7 +10412,6 @@ readers do not read off random characters that represent icons */
 }
 
 .prenom {
-  background-image: url("../../public/img/banner/bg.jpg");
   display: inline-block;
   vertical-align: middle;
   box-sizing: inherit;
@@ -10449,25 +10450,16 @@ readers do not read off random characters that represent icons */
   color: black;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-bottom-display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .text69 {
   color: white;
   margin-top: 30px;
   margin-bottom: 30px;
-}
-
-.Qt button {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  border: solid white 0.5em;
-}
-
-.Qt {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 .title {
@@ -10494,7 +10486,6 @@ readers do not read off random characters that represent icons */
 }
 
 .T-shirt {
-  display: flex;
   background-image: url("../../public/img/about/01.jpg");
   position: static;
   background-repeat: no-repeat;
@@ -10502,10 +10493,13 @@ readers do not read off random characters that represent icons */
   background-size: cover;
   color: white;
   font-family: pomme;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .Recent-News {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -10613,7 +10607,7 @@ readers do not read off random characters that represent icons */
 .card12 {
   border-bottom: 5px solid rgb(38, 162, 204);
   margin-bottom: 3em;
-  background-color: rgb(38, 162, 204);
+  background-color: withe;
 }
 
 .card15 {
@@ -10623,6 +10617,63 @@ readers do not read off random characters that represent icons */
 
 .card-text {
   background-color: white;
+}
+
+.papa {
+  display: flex;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.alex {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: solid #F5F5DC 0.1em;
+  text-align: left;
+  flex-wrap: wrap;
+  background-color: beige;
+}
+
+.cube {
+  border: solid 1em transparent;
+  height: auto;
+}
+
+.cube img {
+  height: 150px;
+  width: 150px;
+}
+
+.favcon {
+  lex-direction: column;
+  display: flex;
+  gap: 1em;
+}
+
+.company {
+  position: relative;
+  right: -80%;
+}
+
+.ping img {
+  display: flex;
+}
+
+.classMargin {
+  margin-left: 15%;
+}
+
+.omg {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.Bag button {
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
