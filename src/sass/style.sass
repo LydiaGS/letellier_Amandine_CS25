@@ -1,4 +1,5 @@
 /*les imports*/
+@import ../../node_modules/bootstrap/scss/bootstrap.scss
 @import ./_variable
 @import ./_importe
 @import ./_font
@@ -8,6 +9,13 @@
 
 /*fin des imports*/
     /*navbra*/
+            * 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    outline: none
+    box-shadow: none
+    scroll-behavior: auto !important
 .barre-bleu
     background-color: $colorclaireBleu
     color: white
@@ -17,6 +25,14 @@
     gap: 3em
     justify-content: space-between
     font-family: bold
+    //navbar
+.menu
+    background-color:  #fff8eb
+    box-sizing: border-box
+    color: #6f7d95
+    font-family: "Circular Std", sans-serif
+    // font-size: 16px
+    // line-height: 1.5    
 .navbar-nav
     display: flex
     flex-direction: column
@@ -28,8 +44,12 @@
     flex-direction: column
     flex-direction: row
     font-family: bold
-
-
+    background-color:  #fff8eb
+    box-sizing: border-box
+    color: #6f7d95
+    font-family: "Circular Std", sans-serif
+    font-size: 16px
+    // line-height: 1.5
 .navbar-nav .nav-link
     padding-right: 0
     padding-left: 0
@@ -37,12 +57,17 @@
     display: flex
     flex-wrap:  wrap
     justify-content: space-between
-    flex-direction: column
+    // flex-direction: column
     font-family: bold
+    background-color:  #fff8eb
+    box-sizing: border-box
+    color: #6f7d95
+    font-family: "Circular Std", sans-serif
+    font-size: 16px
+    // line-height: 1.5
 /*section 1*/
-.Ticket
-    flex-direction: left  
-    flex-wrap:  wrap
+.koukou
+    background:  linear-gradient(90deg, #1270e3 0%, #59c2ff 100%) 
 .img-Font
     background-image: url("../../public/img/banner/bg.jpg")
     background-repeat: no-repeat
@@ -52,7 +77,7 @@
     flex-wrap:  wrap
     font-family: medium
 .container-fluid .jour li 
-    background: linear-gradient(to right, purple, pink, orange)    
+    background: linear-gradient(90deg, #1270e3 0%, #59c2ff 100%)  
     border: none
     /*section2*/
 .video 
@@ -79,19 +104,24 @@
 .vdo img
     border: solid 0.5em white 
     position: relative
+    align-items: center
+    text-align: center
+    display: flex
+    justify-content: center
+
 .vdo i
     align-items: center
     justify-content: center
     display: flex    
     position: relative
     top:-3px
-    right: 530px
+    right: 700px
     color: white 
     border: solid withe 1em
     height: 2em
     width: 3em
 .Ticket button 
-    background: linear-gradient(to right, purple, pink, orange)
+    background: linear-gradient(90deg, #f5317f 0%, #ff7c6e 100%)
     border: none
 .container-fluid button
     background: linear-gradient(to right, purple, pink, orange)
@@ -99,8 +129,9 @@
 
     
 .video .txt1 h1
-    color: linear-gradient(to right, purple, pink,)
+    color:  linear-gradient(90deg, #f5317f 0%, #ff7c6e 100%)
     flex-wrap:  wrap
+    font-family:   linear-gradient(90deg, #f5317f 0%, #ff7c6e 100%)
 .txt1
     margin: 100px    
 .video button
@@ -126,20 +157,26 @@
     border-radius: 0.5em
     background-color: linear-gradient#e66465, #9198e5
     font-family: meduim
-.btn1
-    gap: 1em
-    border-radius: 0.5em   
-    display: flex 
-    justify-content: center  
-    background-color: linear-gradient#e66465, #9198e5
-.btn2
-    gap: 1em
-    border-radius: 0.5em   
-    display: flex  
-    justify-content: center 
-    background-color: linear-gradient#e66465, #9198e5
+.btn1 button
+    background:  linear-gradient(90deg, #1270e3 0%, #59c2ff 100%)
+    border: none
+    color: $colortexte
+    font-size: 20px
+    width: 10em
+    height: 3em
+    border-radius: 0.4em 
+.btn2 button
+    background:   linear-gradient(90deg, #f5317f 0%, #ff7c6e 100%)
+    border: none
+    color: $colortexte
+    font-size: 20px
+    width: 10em
+    height: 3em
+    border-radius: 0.4em 
+.tkt i
+    gap: 2em    
 .btn3
-    gap: 1em
+    gap: 2em
     display: flex    
     justify-content: center
     align-items: center
@@ -166,7 +203,7 @@
     gap: 3em
     font-family: black 
 .accordeon button
-    background: linear-gradient(to right, purple, pink, orange)
+    background: linear-gradient(90deg, #1270e3 0%, #59c2ff 100%)
     justify-content: center
     align-items: center
 .c2   
@@ -371,10 +408,10 @@
     display: flex        
     justify-content: left
     align-items: center
-    border: solid 	#F5F5DC 0.1em
+    border: solid #F5F5DC  0.2em
     text-align: left
     flex-wrap: wrap
-    background-color: beige 
+    background-color: #FFF5EE
 .cube
     border: solid 1em transparent
     height: auto
@@ -397,10 +434,34 @@
     margin-left: 15% 
 .omg
     display: flex
-    gap: 2em
+    gap: 0.5em
     justify-content: center
     align-items: center     
 
 .Bag button 
     align-items: center
     justify-content: center         
+.Mug
+    flex-wrap: wrap
+
+.accordion-button 
+    position: relative
+    display: flex
+    align-items: center
+    width: 100%
+    padding: 1rem 1.25rem
+    font-size: 1rem
+    color: #212529
+    background-color: transparent
+    border: 1pxsolidrgba(0,0,0,.125)
+    border-radius: 0
+    border-top-left-radius: 0px
+    border-top-right-radius: 0px
+    border-bottom-right-radius: 0px
+    border-bottom-left-radius: 0px
+    overflow-anchor: none
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease
+    transition-property: color, background-color, border-color, box-shadow, border-radius
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease
+    transition-delay: 0s, 0s, 0s, 0s, 0s

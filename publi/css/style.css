@@ -10244,6 +10244,10 @@ readers do not read off random characters that represent icons */
 .vdo img {
   border: solid 0.5em white;
   position: relative;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .vdo i {
@@ -10252,7 +10256,7 @@ readers do not read off random characters that represent icons */
   display: flex;
   position: relative;
   top: -3px;
-  right: 530px;
+  right: 700px;
   color: white;
   border: solid withe 1em;
   height: 2em;
@@ -10629,10 +10633,10 @@ readers do not read off random characters that represent icons */
   display: flex;
   justify-content: left;
   align-items: center;
-  border: solid #F5F5DC 0.1em;
+  border: solid #F5F5DC 0.2em;
   text-align: left;
   flex-wrap: wrap;
-  background-color: beige;
+  background-color: #FFF5EE;
 }
 
 .cube {
@@ -10666,7 +10670,7 @@ readers do not read off random characters that represent icons */
 
 .omg {
   display: flex;
-  gap: 2em;
+  gap: 0.5em;
   justify-content: center;
   align-items: center;
 }
@@ -10674,6 +10678,10 @@ readers do not read off random characters that represent icons */
 .Bag button {
   align-items: center;
   justify-content: center;
+}
+
+.Mug {
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */
