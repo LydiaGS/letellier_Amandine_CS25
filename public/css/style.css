@@ -20890,15 +20890,9 @@ readers do not read off random characters that represent icons */
  *  outline: none
  *  box-shadow: none
  *  scroll-behavior: auto !important */
-.barre-bleu {
-  background-color: #1E90FF;
+.louer {
+  background-color: rgb(30, 144, 255);
   color: white;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 3em;
-  justify-content: space-between;
-  font-family: bold;
 }
 
 .menu {
@@ -20996,7 +20990,13 @@ readers do not read off random characters that represent icons */
   justify-content: center;
 }
 
-.vdo i {
+.theo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jojo {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -21004,9 +21004,6 @@ readers do not read off random characters that represent icons */
   top: -3px;
   right: 700px;
   color: white;
-  border: solid withe 1em;
-  height: 2em;
-  width: 3em;
 }
 
 .Ticket button {
@@ -21040,8 +21037,8 @@ readers do not read off random characters that represent icons */
   border: solid;
   border: 1em;
   border: pink;
-  background-color: linear-gradient #c22525, #cf4e12;
-  background-color: linear-gradiant #2c1a92, #0ee1f0;
+  background-color: linear-gradient(90deg, #f5317f 0%, #ff7c6e 100%);
+  background-color: linear-gradient(90deg, #f5317f 0%, #ff7c6e 100%);
   flex-wrap: wrap;
   gap: 10 em;
   border-radius: 0.5em;
@@ -21059,8 +21056,8 @@ readers do not read off random characters that represent icons */
 }
 
 .btn1 button {
-  background: linear-gradient(90deg, #1270e3 0%, #59c2ff 100%);
-  border: none;
+  background: linear-gradient(90deg, #f5317f 0%, #ff7c6e 100%);
+  border: none linear-gradient(90deg, #f5317f 0%, #ff7c6e 100%);
   color: white;
   font-size: 20px;
   width: 10em;
@@ -21069,7 +21066,7 @@ readers do not read off random characters that represent icons */
 }
 
 .btn2 button {
-  background: linear-gradient(90deg, #f5317f 0%, #ff7c6e 100%);
+  background: linear-gradient(90deg, #1270e3 0%, #59c2ff 100%);
   border: none;
   color: white;
   font-size: 20px;
@@ -21364,7 +21361,7 @@ readers do not read off random characters that represent icons */
 }
 
 .card12 {
-  border-bottom: linear-gradient(90deg, #1270e3 0%, #59c2ff 100%);
+  border-bottom: 5px solid #1E90FF;
   margin-bottom: 3em;
   background-color: withe;
 }
@@ -21437,6 +21434,10 @@ readers do not read off random characters that represent icons */
 
 .Mug {
   flex-wrap: wrap;
+}
+
+.Elouan button {
+  background: linear-gradient(90deg, #1270e3 0%, #59c2ff 100%);
 }
 
 /*# sourceMappingURL=style.css.map */
